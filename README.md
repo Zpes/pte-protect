@@ -1,6 +1,6 @@
 # pte-protect
 
-##What is this?
+## What is this?
 Directly changing the bits in the Page Table Entry (PTE) of the corrosponding page to a virtual address to "spoof" protection / being able to hide memory from usermode applications. Because we only touch the PTE the VAD will stay the same so there is no trace other then the PTE that the permission has changed. It will still look like its original protection.
 
 ## Functionality
