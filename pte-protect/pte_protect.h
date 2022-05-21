@@ -13,9 +13,9 @@ namespace pte_protect
 		auto give_page_write_permisions(unsigned __int64 process_id, unsigned __int64 virtual_address) -> NTSTATUS;
 		auto give_page_user_supervisor_permissions(unsigned __int64 process_id, unsigned __int64 virtual_address) -> NTSTATUS;
 
-		auto remove_page_excecute_permisions(unsigned __int64 process_id, unsigned __int64 virtual_address)->NTSTATUS;
-		auto remove_page_write_permisions(unsigned __int64 process_id, unsigned __int64 virtual_address)->NTSTATUS;
-		auto remove_page_user_supervisor_permissions(unsigned __int64 process_id, unsigned __int64 virtual_address)->NTSTATUS;
+		auto remove_page_excecute_permisions(unsigned __int64 process_id, unsigned __int64 virtual_address) -> NTSTATUS;
+		auto remove_page_write_permisions(unsigned __int64 process_id, unsigned __int64 virtual_address) -> NTSTATUS;
+		auto remove_page_user_supervisor_permissions(unsigned __int64 process_id, unsigned __int64 virtual_address) -> NTSTATUS;
 	}
 
 	namespace utility
