@@ -6,3 +6,6 @@ Directly changing the bits in the Page Table Entry (PTE) of the corrosponding pa
 ## Functionality
 * Changing read / write / execute permissions while maintaining the VAD with the old permissions so it does not look like the page has the "spoofed" permissions.
 * Setting the "User Supervisor" bit from the PTE to 0, this will make the page invisible from any usermode api / application.
+
+## Special thanks!
+* [PTView by VollRagm](https://vollragm.github.io/posts/ptview/) for being a big help in the tesing of this project.
